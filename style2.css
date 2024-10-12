@@ -1,0 +1,46 @@
+h1 {
+  font-style: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+body {
+  background-image: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  font-style: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+.Info-section .info-list {
+  display: block;
+  gap: 110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info-section .info-list .info-item {
+  display: block;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% / 3- 110px);
+}
+
+.Info-section .info-list .info-item .info-image {
+  max-width: 83%;
+  display: block;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  aspect-ratio: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
