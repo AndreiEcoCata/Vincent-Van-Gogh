@@ -1,7 +1,14 @@
 h1 {
-  font-style: normal;
   text-align: center;
-  font-style: italic;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: system-ui;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,37 +17,46 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  overflow: auto;
 }
 
 h2 {
-  font-style: normal;
   text-align: center;
-  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: system-ui;
 }
 
-.Info-section .info-list {
-  display: block;
-  gap: 110px;
-  align-items: center;
-  justify-content: space-between;
+img {
+  max-width: 800px;
+  float: left;
+  margin: 0 5%;
+  border: 4px solid black;
+  border-radius: 15px;
+  vertical-align: middle;
 }
 
-.Info-section .info-list .info-item {
-  display: block;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-between;
-  width: calc(100% / 3- 110px);
+.Container {
+  margin: 100px auto;
+  width: 45%;
 }
 
-.Info-section .info-list .info-item .info-image {
-  max-width: 83%;
-  display: block;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  aspect-ratio: 1;
-  margin-left: auto;
-  margin-right: auto;
+.text-box {
+  color: black;
+}
+
+.text-box h2 {
+  font-family: system-ui;
+  font-size: 42px;
+  padding-bottom: 15px;
+}
+
+.text-box p {
+  font-size: 20px;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  font-family: "Space Grotesk", sans-serif;
 }
